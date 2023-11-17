@@ -13,7 +13,7 @@ const Map = () => {
         <MapContainer
           center={[address.location.lat, address.location.lng]}
           zoom={13}
-          scrollWheelZoom={false}
+          scrollWheelZoom={true}
           className="h-screen z-10 w-screen outline-none overflow-hidden"
         >
           <TileLayer
