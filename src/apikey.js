@@ -1,0 +1,1 @@
+export const myApiKey = 'at_zwgnVtJKPtRTALbV79GbLcXBPHwhB'
