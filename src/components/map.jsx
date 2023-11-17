@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { MapContainer, TileLayer } from "react-leaflet";
 import { MapContext } from "../context/mapContext";
 import MarkerPosition from "../utils/markerPosition";
+import "leaflet/dist/leaflet.css"
 
 const Map = () => {
   const { address } = useContext(MapContext);
@@ -13,7 +14,7 @@ const Map = () => {
           center={[address.location.lat, address.location.lng]}
           zoom={13}
           scrollWheelZoom={false}
-          className="h-screen w-screen outline-none overflow-hidden"
+          className="h-screen z-10 w-screen outline-none overflow-hidden"
         >
           <TileLayer
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

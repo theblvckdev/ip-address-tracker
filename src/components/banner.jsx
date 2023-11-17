@@ -42,7 +42,7 @@ const Banner = () => {
             </div>
           </div>
 
-          <div className="absolute z-10 w-full top-[100%] md:-translate-y-[50%] -translate-y-[38%]">
+          <div className="absolute z-50 w-full top-[100%] md:-translate-y-[50%] -translate-y-[38%]">
             <div className="md:w-[76%] w-[90%] mx-auto">
               {address && <AddressDisplay />}
             </div>
